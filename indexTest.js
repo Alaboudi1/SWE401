@@ -15,5 +15,4 @@ assert(sub(10, 20) === -10);
 assert(mul(10, 20) === 200);
 assert(div(10, 20) === 0.5);
 
-console.log('All tests passed!');
 

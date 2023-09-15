@@ -1,0 +1,10 @@
+rules:
+- id: enforce-variable-naming-convention
+  languages: 
+    - javascript
+  message: |
+    Variable names passed to console.log should be at least 12 characters long.
+  severity: WARNING
+  pattern: |
+    console.log(...);
+
