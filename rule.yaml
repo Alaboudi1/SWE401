@@ -1,0 +1,10 @@
+rules:
+- id: console-log
+  languages: 
+    - javascript
+  message: |
+    never use console.log
+  severity: ERROR
+  pattern: |
+    console.log(...);
+
